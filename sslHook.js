@@ -5,7 +5,7 @@ function awaitForCondition(callback) {
             clearInterval(i);
             callback(addr);
         }
-    }, 10000);
+    }, 1000);
 }
 
 var cocos2djs = null;
